@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/miss"
+        android:layout_width="164dp"
+        android:layout_height="187dp"
+        android:layout_marginBottom="64dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.073"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/oliver" />
+
+    <ImageView
+        android:id="@+id/thelast"
+        android:layout_width="157dp"
+        android:layout_height="187dp"
+        android:layout_marginBottom="64dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/miss"
+        app:srcCompat="@drawable/the_last" />
+
+    <ImageView
+        android:id="@+id/avici"
+        android:layout_width="166dp"
+        android:layout_height="179dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/thelast"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toEndOf="@+id/loba"
+        app:srcCompat="@drawable/avici1" />
+
+    <ImageView
+        android:id="@+id/loba"
+        android:layout_width="173dp"
+        android:layout_height="178dp"
+        android:layout_marginTop="280dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.075"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/loba" />
+
+    <ImageView
+        android:id="@+id/mundial"
+        android:layout_width="170dp"
+        android:layout_height="247dp"
+        app:layout_constraintBottom_toTopOf="@+id/loba"
+        app:layout_constraintEnd_toStartOf="@+id/king"
+        app:layout_constraintHorizontal_bias="0.282"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/quevedo" />
+
+    <ImageView
+        android:id="@+id/king"
+        android:layout_width="165dp"
+        android:layout_height="243dp"
+        app:layout_constraintBottom_toTopOf="@+id/avici"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.878"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/kingdom" />
+</androidx.constraintlayout.widget.ConstraintLayout>
